@@ -3,8 +3,8 @@ import slugify from "./slugify";
 export default [
   {
     id: 1,
-    title: "İTİKAT KİTABI",
-    slug: slugify("İTİKAT KİTABI"),
+    title: "İTİKAD KİTABI",
+    slug: slugify("İTİKAD KİTABI"),
     content: [
       {
         title: "GERÇEK DİNİN ESASLARI VE BAŞLICA DİNLER",

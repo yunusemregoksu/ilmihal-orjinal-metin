@@ -40,19 +40,10 @@ function MyApp({ Component, pageProps }) {
       <NextUIProvider>
         <TopBar />
         <Container xs>
-          <AppPromotion />
           <Component {...pageProps} />
           <Analytics />
-          <div class="footer">
-            <Link
-              href="https://sametmutevelli.com"
-              target="_blank"
-              color="text"
-              rel="noopener"
-              className="text-xs"
-            >
-              Designed and coded by Samet Mutevelli
-            </Link>
+          <div className="footer">
+            CVM
           </div>
         </Container>
       </NextUIProvider>

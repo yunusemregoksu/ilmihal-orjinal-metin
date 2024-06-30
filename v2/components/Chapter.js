@@ -25,7 +25,7 @@ function Chapter({ chapter }) {
             <Col span={12}>
               <Row>
                 <h1 className="back-link">
-                  <Link href="/" passHref color={"text"}>
+                  <Link href="/" passhref color={"text"}>
                     &larr; İÇİNDEKİLER
                   </Link>
                 </h1>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Büyük İslam İlmihali - Ömer Nasuhi Bilmen (ilmihal oku)</title>
+        <title>Büyük İslam İlmihali - Ömer Nasuhi Bilmen</title>
         <meta
           name="description"
           content="ilmihal oku sitesinden Ömer Nasuhi Bilmen'in Büyük İslam İlmihali'ni reklamsız ücretsiz okuyabilirsiniz."

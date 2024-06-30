@@ -7,7 +7,7 @@ function Section({ chapter, section }) {
     paragraphs.reduce((total, p) => total + p.split(" ").length, 0);
 
   const readingTime = (section) =>
-    Math.round(countWords(section.content) / 200 + 1) + " dakika";
+    `${Math.round(countWords(section.content) / 200 + 1)} dakika`;
 
   return (
     <>
@@ -21,7 +21,7 @@ function Section({ chapter, section }) {
         <Card.Body>
           <Row>
             <h1 className="back-link">
-              <Link href={`/${chapter.slug}`} passHref color="text">
+              <Link href={`/${chapter.slug}`} passhref color="text">
                 &larr; {chapter.title}
               </Link>
             </h1>
