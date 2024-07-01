@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "TAILWIND_MODE=watch & NODE_ENV=development & postcss ./styles/globals.css -o ./styles/main.css -w",
     "build:dev": "TAILWIND_MODE=build & NODE_ENV=development & postcss ./styles/globals.css -o ./styles/main.css",
-    "build:prod": "TAILWIND_MODE=build & NODE_ENV=production & postcss ./styles/globals.css -o ./styles/main.css",
-    "build": "next build",
+    "build:prod": "NODE_OPTIONS=--openssl-legacy-provider TAILWIND_MODE=build & NODE_ENV=production & postcss ./styles/globals.css -o ./styles/main.css",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "NODE_OPTIONS=--openssl-legacy-provider next dev"
   },
   "dependencies": {
